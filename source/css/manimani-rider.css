@@ -107,3 +107,15 @@ body {
 #Footer li {
     list-style: none;
 }
+
+#Footer .author p {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#Footer .profile {
+    max-width: 160px;
+}
