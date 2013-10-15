@@ -1,0 +1,22 @@
+---
+pageable: true
+---
+<h1 class="archive">
+  Archive for
+  <% case page_type
+     when 'day' %>
+    <%= Date.new(year, month, day).strftime('%m %e %Y') %>
+  <% when 'month' %>
+    <%= Date.new(year, month, 1).strftime('%Y年%m月') %>
+  <% when 'year' %>
+    <%= year %>
+  <% end %>
+</h1>
+
+<ul>
+  <% page_articles.each_with_index do |article, i| %>
+    <li><%= link_to article.title, article %> <span><%= article.date.strftime('(%Y年%m月%d日)') %></span></li>
+  <% end %>
+</ul>
+
+

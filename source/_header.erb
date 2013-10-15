@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+    <meta name="description" content="Akihiro Nagashima's Weblog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <%= stylesheet_link_tag "bootstrap.min", "bootstrap-theme.min", "manimani-rider"  %>
+    <title><%= current_page.data.title ?  current_page.data.title.to_s() + ' | まにまにらいだー' : 'まにまにらいだー' %></title>
+</head>
+
+<body>
+
+<div id="Header"  class="container">
+    <a href="/">
+        <%= tag :img, :src => "/images/title.png", :class => "img-responsive" %>
+    </a>
+</div>
