@@ -2,6 +2,8 @@
 title: このブログのmiddlemanソース
 date: 2013-10-15
 tags: diary
+description: middlemanのソースを公開しました
+keywords: blog,github,middleman
 ---
 
 というわけで、github pages + middlemanにブログ移築したわけなんですけども。

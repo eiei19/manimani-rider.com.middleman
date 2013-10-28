@@ -2,6 +2,8 @@
 title: ブログをgithub pagesに移行
 date: 2013-10-10
 tags: diary
+description: ブログを移行したよ
+keywords: blog,github,middleman
 ---
 ブログを github pages に移行しました。
 
