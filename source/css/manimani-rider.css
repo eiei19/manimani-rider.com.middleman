@@ -51,7 +51,8 @@ body {
 
 #Contents h2 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
+    margin-bottom: 18px;
 }
 
 #Contents p {
