@@ -1,7 +1,7 @@
 ---
 title: ベトナムVISAを取得する方法
 date: 2013-10-28
-tags: diary
+tags: vietnam
 description: ベトナムVISAをとる方法
 keywords: ベトナム,ビザ,visa,vietnam
 ---
