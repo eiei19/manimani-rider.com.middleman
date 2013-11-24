@@ -73,14 +73,32 @@ body {
     border-image: url("../images/back.gif") 11 round;
     border-style: solid;
     border-width: 0 0 7px 0;
+    clear: both;
+}
+
+#Contents h3 {
+    font-weight: bold;
+    font-size: 16px;
+    clear: both;
 }
 
 #Contents p {
     line-height: 1.5;
+    clear: both;
 }
 
 #Contents ul {
     padding-left: 17px;
+}
+
+#Contents .image-wrapper {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+#Contents .image-wrapper img {
+    width: 270px;
 }
 
 #Paginator {
