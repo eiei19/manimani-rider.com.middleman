@@ -83,6 +83,8 @@ body {
 #Contents h3 {
     font-weight: bold;
     font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: 12px;
     clear: both;
 }
 
@@ -103,6 +105,10 @@ body {
 
 #Contents .image-wrapper img {
     width: 270px;
+}
+
+#Contents .image-wrapper img.header {
+    width: 100%;
 }
 
 #Contents blockquote p {
