@@ -51,7 +51,8 @@ body {
 }
 
 .fb-like {
-    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
 }
 
 #Contents .article-header {
