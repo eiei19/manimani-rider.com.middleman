@@ -98,6 +98,31 @@ body {
     padding-left: 17px;
 }
 
+#Contents .image-wrapper-single img {
+    max-width: 640px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+@media (max-width: 900px) {
+    #Contents .image-wrapper-single img {
+        max-width: 600px;
+    }
+}
+@media (max-width: 600px) {
+    #Contents .image-wrapper-single img {
+        max-width: 320px;
+    }
+    .booklink-image {
+        float: none !important;
+    }
+}
+@media (max-width: 401px) {
+    #Contents .image-wrapper-single img {
+        max-width: 270px;
+    }
+}
+
+
 #Contents .image-wrapper {
     float: left;
     margin-right: 5px;

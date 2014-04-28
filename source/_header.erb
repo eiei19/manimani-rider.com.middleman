@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="keywords" content="<%= current_page.data.keywords ?  current_page.data.keywords.to_s() : 'eiei19,ブログ,プログラマ,エンジニア,永嶋章弘' %>">
-    <meta name="description" content="<%= current_page.data.description ?  current_page.data.description.to_s() : 'これはブログです' %>">
-
     <meta property="og:title" content="<%= current_page.data.title ?  current_page.data.title.to_s() + ' | まにまにらいだー' : 'まにまにらいだー' %>" />
-    <meta property="og:type" content="<%= current_page.data.title ?  'airticle' : 'website' %>" />
+    <meta property="og:url" content="<%= current_page.data.title ? 'http://manimani-rider.com/' + current_page.data.url.to_s() : 'http://manimani-rider.com/' %>" />
+    <meta property="og:type" content="<%= current_page.data.title ?  'article' : 'website' %>" />
     <meta property="og:description" content="<%= current_page.data.description ? current_page.data.description.to_s() : 'これはブログです' %>" />
     <meta property="og:image" content="<%= current_page.data.image ? current_page.data.image.to_s() : 'http://manimani-rider.com/images/title.png' %>" />
     <meta property="og:site_name" content="まにまにらいだー" />
     <meta property="og:locale" content="ja_JP" />
     <meta property="fb:admins" content="100001782413694" />
+
+    <meta name="keywords" content="<%= current_page.data.keywords ?  current_page.data.keywords.to_s() : 'eiei19,ブログ,プログラマ,エンジニア,永嶋章弘' %>">
+    <meta name="description" content="<%= current_page.data.description ?  current_page.data.description.to_s() : 'これはブログです' %>">
+
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">

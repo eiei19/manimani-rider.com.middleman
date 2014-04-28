@@ -1,5 +1,6 @@
 ---
 title: ぼくが見た東南アジア
+url: south-east-asia
 date: 2014-01-16
 tags: diary
 description: ベトナム滞在に中に行った近隣諸国
